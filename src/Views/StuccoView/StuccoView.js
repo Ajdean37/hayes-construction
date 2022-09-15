@@ -1,11 +1,12 @@
-import Footer from "../../Footer/Footer"
+import './StuccoView.css'
+import waterDamage from '../../images/water-damage.jpeg'
 
 const StuccoView = () => {
   return (
-    <div>
+    <div className="stucco">
       <h1>Stucco View</h1>
 
-      <h5>Water intrusion can occur from any or all areas of your home, including:</h5>
+      <h5><img src={waterDamage} alt='water damage' align='right' height='400'></img>Water intrusion can occur from any or all areas of your home, including:</h5>
 
       <ul>Windows</ul>
       <ul>Exhaust Vents</ul>
@@ -34,7 +35,6 @@ const StuccoView = () => {
       <p>Demolition and the reconstruction that followed was extensive and complex.  Our qualified team of professional tradesmen work together to achieve the best possible outcome.</p>
 
       <p>We have a very happy homeowners who is more than willing to share his experience with you.</p>
-      <Footer />
     </div>
   )
 }

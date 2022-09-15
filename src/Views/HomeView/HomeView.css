@@ -1,0 +1,20 @@
+.roof-damage {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.stormTitle {
+  font-weight: 900;
+}
+
+.roofDamageText {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+

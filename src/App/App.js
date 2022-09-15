@@ -7,13 +7,15 @@ import Navbar from '../Navbar/Navbar';
 import RoofingView from '../Views/RoofingView/RoofingView';
 import StuccoView from '../Views/StuccoView/StuccoView';
 import IceDamsView from '../Views/IceDamsView/IceDamsView';
-
+import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
 
 
 const App = () => {
   return (
     <BrowserRouter>
       <Navbar />
+      <Header />
       <Routes>
         <Route path='/' element={<HomeView />} />
         <Route path='About' element={<AboutView />} />
@@ -22,6 +24,7 @@ const App = () => {
         <Route path='IceDams' element={<IceDamsView />} />
         <Route path='*' element={<NoMatchView />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

@@ -1,18 +1,26 @@
-import {Link} from "react-router-dom"
-import Header from "../Header/Header"
 import './Navbar.css'
+import logo from '../images/roofing-contractor-1.jpeg'
 
 const Navbar = () => {
   return (
     <div>
-      <Header />
-      <div className="container-fluid">
-        <li className="navbar-brand"><Link to='/'>Home</Link></li>
-        <li className="navbar-brand"><Link to='/about'>About</Link></li>
-        <li className="navbar-brand"><Link to='/roofing'>Roofing</Link></li>
-        <li className="navbar-brand"><Link to='/stucco'>Stucco</Link></li>
-        <li className="navbar-brand"><Link to='/icedams'>Ice Dams</Link></li>
-      </div>
+      <nav className="nav">
+        <a href="/"><img src={logo} alt="Wm Hayes Construction LLC" width="300"></img></a>
+        <ul>
+          <li>
+            <a href="/about">About</a>
+          </li>
+          <li>
+            <a href="/roofing">Roofing</a>
+          </li>
+          <li>
+            <a href="/stucco">Stucco</a>
+          </li>
+          <li>
+            <a href="/icedams">Ice Dams</a>
+          </li>
+        </ul>
+      </nav>
     </div>
   )
 }

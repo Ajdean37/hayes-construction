@@ -1,8 +1,8 @@
-import Footer from "../../Footer/Footer"
+import './AboutView.css'
 
 const AboutView = () => {
   return (
-    <div>
+    <div className="about-view">
       <h1>About US</h1>
       <p>We take our construction projects seriously. Wm Hayes Construction LLC was established in Roofing Truck1971. Our staff is highly qualified and dedicated. We work hard to make sure that our customers get exactly the kind of roof they need. </p>
 
@@ -22,8 +22,6 @@ const AboutView = () => {
       <p>Our materials are bought bulk from reputable manufacturers, allowing us to keep our prices down and quality high.</p>
 
       <p>If you'd like a free estimate for a new roof, or repair, please call us at (651) 433-3342. Remember, preventative measure can save lots of money and problems in the future.</p>
-
-      <Footer />
     </div>
   )
 }
