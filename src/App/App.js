@@ -9,6 +9,8 @@ import StuccoView from '../Views/StuccoView/StuccoView';
 import IceDamsView from '../Views/IceDamsView/IceDamsView';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
+import ContactView from '../Views/ContactView/ContactView';
+import TestimonialView from '../Views/TestimonialView/TestimonialView';
 
 
 const App = () => {
@@ -22,6 +24,8 @@ const App = () => {
         <Route path='Roofing' element={<RoofingView />} />
         <Route path='Stucco' element={<StuccoView />} />
         <Route path='IceDams' element={<IceDamsView />} />
+        <Route path='Contact' element={<ContactView />} />
+        <Route path='Testimonials' element={<TestimonialView />} />
         <Route path='*' element={<NoMatchView />} />
       </Routes>
       <Footer />
