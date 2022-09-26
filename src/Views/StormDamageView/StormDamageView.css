@@ -1,0 +1,13 @@
+.storm-damage-view {
+  padding: 1rem;
+  display: inline-grid;
+}
+
+.storm-damage-photo {
+  grid-column-start: 2;
+  padding-top: 2rem;
+}
+
+.storm-damage {
+  grid-row-start: 1;
+}

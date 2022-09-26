@@ -4,7 +4,7 @@ import './AboutView.css'
 const AboutView = () => {
   return (
     <div className="about-view">
-      <h1>About US</h1>
+      <h1>About Us</h1>
       <p>We take our construction projects seriously. Wm Hayes Construction LLC was established in1971. Our staff is highly qualified and dedicated. We work hard to make sure that our customers get exactly the kind of roof they need. </p>
 
       <p>Wm Hayes also has the ability to solve water intrusion problems, including roofing, stucco, siding, and windows. </p>
