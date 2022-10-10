@@ -1,11 +1,10 @@
 import './ActionCard.css';
 
-const ActionCard = () => {
+const ActionCard = ({title}) => {
   return (
     <div className="contact">
-      <h2>Contact Us Now! </h2>
+      <h2>{title} </h2>
       <p>(651) 433-3342</p>
-      <p>Email here</p>
     </div>
   )
 }

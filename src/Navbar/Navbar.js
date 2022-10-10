@@ -1,5 +1,5 @@
 import './Navbar.css'
-import logo from '../images/roofing-contractor-1.jpeg'
+import logo from '../images/roofing-contractor-2.jpeg'
 
 const Navbar = () => {
   return (
@@ -11,7 +11,7 @@ const Navbar = () => {
             <a href="/about">About</a>
           </li>
           <li>
-            <a href="/stormdamage">Storm Damage</a>
+            <a href="/storm-damage">Storm Damage</a>
           </li>
           <li>
             <a href="/roofing">Roofing</a>
@@ -20,7 +20,7 @@ const Navbar = () => {
             <a href="/stucco">Stucco</a>
           </li>
           <li>
-            <a href="/icedams">Ice Dams</a>
+            <a href="/ice-dams">Ice Dams</a>
           </li>
           <li>
             <a href="/contact">Contact</a>

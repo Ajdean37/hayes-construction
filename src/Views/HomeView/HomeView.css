@@ -28,7 +28,7 @@
   grid-column-end: 3;
 }
 
-.projects-home img {
+.projects-home li {
+  display: inline-block;
   padding-right: 1rem;
 }
-

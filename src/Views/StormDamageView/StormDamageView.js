@@ -20,4 +20,4 @@ const StormDamageView = () => {
   )
 }
 
-export default StormDamageView
+export default StormDamageView;

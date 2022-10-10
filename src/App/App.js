@@ -10,8 +10,9 @@ import IceDamsView from '../Views/IceDamsView/IceDamsView';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import ContactView from '../Views/ContactView/ContactView';
-import TestimonialView from '../Views/TestimonialView/TestimonialView';
 import StormDamageView from '../Views/StormDamageView/StormDamageView';
+import TestimonialView from '../Views/TestimonialView/TestimonialView';
+
 
 const App = () => {
   return (
@@ -20,13 +21,13 @@ const App = () => {
       <Header />
       <Routes>
         <Route path='/' element={<HomeView />} />
-        <Route path='About' element={<AboutView />} />
-        <Route path='Roofing' element={<RoofingView />} />
-        <Route path='Stucco' element={<StuccoView />} />
-        <Route path='IceDams' element={<IceDamsView />} />
-        <Route path='Contact' element={<ContactView />} />
-        <Route path='StormDamage' element={<StormDamageView />} />
-        <Route path='Testimonials' element={<TestimonialView />} />
+        <Route path='about' element={<AboutView />} />
+        <Route path='roofing' element={<RoofingView />} />
+        <Route path='stucco' element={<StuccoView />} />
+        <Route path='ice-dams' element={<IceDamsView />} />
+        <Route path='contact' element={<ContactView />} />
+        <Route path='storm-damage' element={<StormDamageView />} />
+        <Route path='testimonials/:key' element={<TestimonialView />} />
 
         <Route path='*' element={<NoMatchView />} />
       </Routes>
