@@ -18,6 +18,12 @@
   margin: .5rem;
 }
 
+.services-title {
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+}
+
 .action-card {
   grid-column-start: 1;
   grid-column-end: 3;
