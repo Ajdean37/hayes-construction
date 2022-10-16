@@ -18,7 +18,7 @@ const HomeView = () => {
     <div className='home-view'>
       <div className='about-us-home'>
         <h1>About Us</h1>
-        <p>We take our construction projects seriously. Wm Hayes Construction LLC was established in 1971. Our staff is highly qualified and dedicated. We work hard to make sure that our customers get exactly the kind of roof they need. </p>
+        <p>We take our construction projects seriously. Wm Hayes Construction LLC was established in 1971. Our staff is highly qualified and dedicated. We work hard to make sure that our customers get exactly the kind of service they need. </p>
       </div>
 
       <div className='services-home'>

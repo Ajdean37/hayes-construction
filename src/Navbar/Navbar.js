@@ -1,11 +1,11 @@
 import './Navbar.css'
-import logo from '../images/roofing-contractor-2.jpeg'
+import logo from '../images/logo.jpg'
 
 const Navbar = () => {
   return (
     <div>
       <nav className="nav">
-        <a href="/"><img src={logo} alt="Wm Hayes Construction LLC" width="300"></img></a>
+        <a href="/"><img src={logo} alt="Wm Hayes Construction LLC" width="200" height='60'></img></a>
         <ul>
           <li>
             <a href="/about">About</a>
