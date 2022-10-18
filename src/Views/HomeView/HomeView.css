@@ -18,7 +18,8 @@
   margin: .5rem;
 }
 
-.services-title {
+.services-home a {
+  color: black;
   text-decoration: none;
   text-align: center;
   font-weight: bold;
@@ -38,3 +39,4 @@
   display: inline-block;
   padding-right: 1rem;
 }
+

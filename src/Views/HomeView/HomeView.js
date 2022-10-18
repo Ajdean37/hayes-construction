@@ -31,7 +31,7 @@ const HomeView = () => {
             <div className='storm-damage-photo'>
               <img src={hailStones} alt="roof damage" height='150' width='150'></img>
             </div>
-            <div className='services-title'>Storm Damage</div>
+            <div>Storm Damage</div>
           </Link>
           </li>
           <li>
@@ -39,7 +39,7 @@ const HomeView = () => {
             <div className='house-roofing-photo'>
               <img src={houseRoofing} alt="house roof" height='150' width='150'></img>
             </div>
-            <div className='services-title'>Roofing</div>
+            <div>Roofing</div>
           </Link>  
           </li>
           <li>
@@ -47,7 +47,7 @@ const HomeView = () => {
             <div className='stucco-photo'>
               <img src={stucco} alt="stucco" height='150' width='150'></img>
             </div>
-            <div className='services-title'>Stucco</div>
+            <div>Stucco</div>
           </Link>
           </li>
           <li>
@@ -55,7 +55,7 @@ const HomeView = () => {
             <div className='icedam-photo'>
               <img src={icedam} alt="ice dam" height='150' width='150'></img>
             </div>
-            <div className='services-title'>Ice Dams</div>
+            <div>Ice Dams</div>
           </Link>
           </li>
           {/* <li>

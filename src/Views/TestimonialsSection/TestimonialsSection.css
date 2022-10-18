@@ -6,11 +6,15 @@
 .testimonials-preview {
   display: flex;
   flex-direction: row;
-  text-decoration: none;
 }
 
 .testimonial-card {
   border: 1px solid black;
   padding: 5px;
   row-gap: 5px;
+}
+
+.testimonial-card a {
+  text-decoration: none;
+  color: black;
 }
