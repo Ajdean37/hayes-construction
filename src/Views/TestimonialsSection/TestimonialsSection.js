@@ -12,7 +12,9 @@ const TestimonialsSection = () => {
           testimonials.map(item => (
             <div className='testimonial-card'>
               <Link to={`testimonials/${item.key}`}>
-                <div>{item.preview}</div>
+                <div className='card-header'>Name</div>
+                <div className='card-body'>{item.preview}</div>
+                <div className='card-footer'>Click to continue reading</div>
               </Link>
             </div>
           ))

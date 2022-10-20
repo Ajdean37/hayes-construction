@@ -9,12 +9,26 @@
 }
 
 .testimonial-card {
-  border: 1px solid black;
-  padding: 5px;
+  border: 1px solid #777;
+  border-radius: .25rem;
+  padding: 1rem;
   row-gap: 5px;
 }
 
 .testimonial-card a {
   text-decoration: none;
   color: black;
+}
+
+.card-header {
+  font-size: 1.5rem;
+  margin-bottom: .5rem;
+}
+
+.card-body {
+  font-size: .9rem;
+}
+
+.card-footer {
+  margin-top: 1rem;
 }
