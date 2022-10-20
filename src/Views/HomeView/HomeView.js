@@ -25,39 +25,39 @@ const HomeView = () => {
         <div>
           <h1>Services</h1>
         </div>
-        <ul>
-          <li>
+        <div className='service-items-ct'>
+          <div className='service-item'>
           <Link to='/storm-damage'>
             <div className='storm-damage-photo'>
               <img src={hailStones} alt="roof damage" height='150' width='150'></img>
             </div>
             <div>Storm Damage</div>
           </Link>
-          </li>
-          <li>
+          </div>
+          <div className='service-item'>
           <Link to='/roofing'>
             <div className='house-roofing-photo'>
               <img src={houseRoofing} alt="house roof" height='150' width='150'></img>
             </div>
             <div>Roofing</div>
           </Link>  
-          </li>
-          <li>
+          </div>
+          <div className='service-item'>
           <Link to='/stucco'>
             <div className='stucco-photo'>
               <img src={stucco} alt="stucco" height='150' width='150'></img>
             </div>
             <div>Stucco</div>
           </Link>
-          </li>
-          <li>
+          </div>
+          <div className='service-item'>
           <Link to='/ice-dams'>
             <div className='icedam-photo'>
               <img src={icedam} alt="ice dam" height='150' width='150'></img>
             </div>
             <div>Ice Dams</div>
           </Link>
-          </li>
+          </div>
           {/* <li>
             <div className='siding-photo'>
               <img src={home1} alt="siding" height='150' width='150'></img>
@@ -82,7 +82,7 @@ const HomeView = () => {
               <a href='/waterintrusion'>Water Intrusion</a>
             </div>
           </li> */}
-        </ul>
+        </div>
       </div>
 
       <div className='action-card'>
@@ -93,29 +93,29 @@ const HomeView = () => {
         <div>
           <h1>Projects</h1>
         </div>
-        <ul>
-          <li>
+        <div className='project-item-ct'>
+          <div>
             <Link to='/project1'>
               <div>
                 <img src={home1} alt='home project 1' height='200' width='225'></img>
               </div>
             </Link>
-          </li>
-          <li>
+          </div>
+          <div>
             <Link to='/project2'>
               <div>
                 <img src={home2} alt='home project 2' height='200' width='225'></img>
               </div>
             </Link>
-          </li>
-          <li>
+          </div>
+          <div>
             <Link to='/project3'>
               <div>
                 <img src={home3} alt='home project 3' height='200' width='225'></img>
               </div>
             </Link>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
 
       <div className='testimonials-home'>

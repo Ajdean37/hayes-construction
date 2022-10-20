@@ -1,0 +1,8 @@
+.header {
+  background-image: url('../images/storm-damage-season.jpeg');
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+}
