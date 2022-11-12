@@ -11,18 +11,6 @@ const Navbar = () => {
             <a href="/about">About</a>
           </li>
           <li>
-            <a href="/storm-damage">Storm Damage</a>
-          </li>
-          <li>
-            <a href="/roofing">Roofing</a>
-          </li>
-          <li>
-            <a href="/stucco">Stucco</a>
-          </li>
-          <li>
-            <a href="/ice-dams">Ice Dams</a>
-          </li>
-          <li>
             <a href="/contact">Contact</a>
           </li>
         </ul>
